@@ -1,0 +1,26 @@
+{
+  "name": "lcr-finder",
+  "version": "0.0.1",
+  "description": "Lowest cost route finder (for Asterisk)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antirek/lcr-finder.git"
+  },
+  "author": "",
+  "license": "Beer or money",
+  "bugs": {
+    "url": "https://github.com/antirek/lcr-finder/issues"
+  },
+  "homepage": "https://github.com/antirek/lcr-finder",
+  "dependencies": {
+    "ding-dong": "0.0.9",
+    "joi": "^6.4.2",
+    "q": "^1.4.1",
+    "winston": "^1.0.0",
+    "winston-syslog": "^1.1.0"
+  }
+}
