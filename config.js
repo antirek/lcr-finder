@@ -6,7 +6,13 @@ module.exports = {
         port: 3007
     },
     asterisk: {
-    	port: 3434
+    	dialplanVarLCRStatus: 'LCR_STATUS',
+    	dialplanVarLCRResult: 'LCR_RESULT',
+    	agiParamName: 'agi_arg_1'
+    },
+    mongo: {
+    	collection: 'providers',
+    	connectionString: 'mongodb://localhost/lcr'
     },
     logger: {
         console: {
