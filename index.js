@@ -3,7 +3,7 @@ var dingDong = require('ding-dong');
 var Joi = require('joi');
 var mongoose = require('mongoose');
 
-//var lcrWeb = require('lcr-web');
+var LCRWeb = require('lcr-web');
 
 var ConfigSchema = require('./lib/configSchema');
 var Handler = require('./lib/handler');
@@ -46,10 +46,9 @@ var Server = function (config) {
             .createServer(handler.handle)
             .listen(config.agi['port']);
 
-        /*
-            var voicerWeb = new VoicerWeb(source, config['web']);
-            voicerWeb.start();
-        */
+        
+        var lcrWeb = new LCRWeb(config.web, Resource);
+        lcrWeb.start();
         
         log('server started');
     };

@@ -11,7 +11,7 @@ module.exports = {
     		result: 'LCR_RESULT',
     		sequence: 'LCR_SEQUENCE'
     	},
-    	agiParamName: 'agi_arg_1'
+    	agiParamName: 'agi_extension'
     },
     mongo: {
     	collection: 'providers',
