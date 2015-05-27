@@ -1,5 +1,6 @@
 # lcr-finder
-Lowest cost route finder (for Asterisk)
+Least cost route finder (for Asterisk)
+
 
 ## Requirements
 
@@ -20,7 +21,7 @@ https://github.com/antirek/lcr-finder-app
 > npm install lcr-finder [--save]
 
 
-### prepare app
+### prepare app.js
 
 `````
 
@@ -33,7 +34,7 @@ server.start();
 `````
 
 
-### use config
+### use config.js
 
 `````
 module.exports = {
@@ -108,3 +109,9 @@ exten=_X.,n,Verbose(${LCR_SEQUENCE})
 exten=_X.,n,Dial(SIP/${LCR_RESULT}/${EXTEN})
 
 `````
+
+
+
+## Bugs? Questions? Any more?
+
+email: serge.dmitriev@gmail.com
