@@ -24,8 +24,7 @@ var Server = function (config) {
     };
 
     var validate = function (callback) {
-        //Joi.validate(config, ConfigSchema, callback);
-        callback();
+        Joi.validate(config, ConfigSchema, callback);
     };
 
     var init = function () {
@@ -46,10 +45,12 @@ var Server = function (config) {
         dingDong
             .createServer(handler.handle)
             .listen(config.agi['port']);
-/*
-        var voicerWeb = new VoicerWeb(source, config['web']);
-        voicerWeb.start();
-*/
+
+        /*
+            var voicerWeb = new VoicerWeb(source, config['web']);
+            voicerWeb.start();
+        */
+        
         log('server started');
     };
 
