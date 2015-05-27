@@ -6,8 +6,11 @@ module.exports = {
         port: 3007
     },
     asterisk: {
-    	dialplanVarLCRStatus: 'LCR_STATUS',
-    	dialplanVarLCRResult: 'LCR_RESULT',
+    	dialplanVars: {
+    		status: 'LCR_STATUS',
+    		result: 'LCR_RESULT',
+    		sequence: 'LCR_SEQUENCE'
+    	},
     	agiParamName: 'agi_arg_1'
     },
     mongo: {
