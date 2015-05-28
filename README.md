@@ -83,9 +83,9 @@ or use pm2
 
 ### configure data
 
-open http://localhost:3007
+open http://localhost:3007 and add providers, directions and prices
 
-add providers, directions and prices
+![lcr-finder web-interface](https://raw.githubusercontent.com/antirek/lcr-web/master/images/lcr-web.png)
 
 
 
