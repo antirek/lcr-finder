@@ -19,10 +19,9 @@
   "dependencies": {
     "ding-dong": "0.0.9",
     "joi": "^6.4.2",
-    "lcr-web": "0.0.5",
+    "lcr-web": "0.0.6",
     "mongoose": "^4.0.3",
     "q": "^1.4.1",
-    "winston": "^1.0.0",
-    "winston-syslog": "^1.1.0"
+    "winston": "^1.0.0"
   }
 }

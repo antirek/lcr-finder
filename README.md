@@ -59,10 +59,7 @@ module.exports = {
     logger: {
         console: {
             colorize: true
-        },
-        syslog: {
-            host: 'localhost'
-        },
+        },        
         file: {
             filename: '/var/log/lcr-finder.log',
             json: false
