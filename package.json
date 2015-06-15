@@ -1,6 +1,6 @@
 {
   "name": "lcr-finder",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lowest cost route finder (for Asterisk)",
   "main": "index.js",
   "scripts": {
