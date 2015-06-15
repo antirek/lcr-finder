@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/antirek/lcr-finder",
   "dependencies": {
-    "ding-dong": "0.0.9",
+    "ding-dong": "0.1.1",
     "joi": "^6.4.2",
     "lcr-web": "0.0.6",
     "mongoose": "^4.0.3",
